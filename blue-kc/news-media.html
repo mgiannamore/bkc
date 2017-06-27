@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Blue KC News & Media</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/bluekc.base.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>if (!window.jQuery) { document.write('<script src="js/jquery-1.12.4.min.js"><\/script>'); }</script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <!--
+    jQuery 3.1.0 if you prefer. Replace 1.12.4 with these lines if needed.
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>if (!window.jQuery) { document.write('<script src="js/jquery-3.1.0.min.js"><\/script>'); }</script>
+    -->
+    <script type="text/javascript" src="/js/bluekc.main.js"></script>
+    <script type="text/javascript" src="/js/bluekc.events.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="siteframe">
+    <div id="wrapper" class="opentrans">
+        <header>
+            <div class="inner">
+              <a href="/" class="logo" title=""><span class="reader">BLUE KC</span></a>
+              <div class="hamburger"><a id="nav-toggle" href="#"><span></span></a></div>
+              <div class="nav-container">
+                  <nav class="topnav">
+                      <a href="/member-benefits/find-a-doctor.html" class="ib">Find a Doctor</a>
+                      <a href="#" class="ib">Contact</a>
+                      <a href="#" class="ib">Login</a>
+                      <a href="#"><span class="search"></span></a>
+                  </nav>
+                  <nav class="main">
+                      <a href="/individual-family/" class="nopad">Individuals &amp; Families</a>
+                      <a href="/medicare/">Medicare</a>
+                      <a href="/employers/">Employers</a>
+                      <a href="/member-benefits/">Member Benefits</a>
+                      <a href="/agents-providers/">Agents &amp; Providers</a>
+                  </nav>
+              </div>
+              <div class="clear0"></div>
+            </div>
+        </header>
+        <main>
+            <section class="featured-interior">
+              <div class="featured-interior__hero" id="news-media">
+                <div class="inner">
+                    <div class="pad">
+                        <div class="content">
+                            <h1>Blue KC In The News</h1>
+                            <p>Read all about what's new and noteworthy at Blue KC.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+                <nav class="featured-interior__nav">
+                    <div class="inner">
+                      <ul>
+                        <li><a href="/blue-kc/about.html" title="About">About</a></li>
+                        <li><a href="/blue-kc/blue-kc-history.html" title="Our History">Our History</a></li>
+                        <li class="current"><a href="/blue-kc/news-media.html" title="News &amp; Media">News &amp; Media</a></li>
+                        <li><a href="/blue-kc/live-blue.html" title="Live Blue">Live Blue</a></li>
+                        <li><a href="/blue-kc/charitable-giving.html" title="Charitable Giving">Charitable Giving</a></li>
+                        <li><a href="/blue-kc/leadership.html" title="Leadership">Leadership</a></li>
+                        <li><a href="/blue-kc/careers.html" title="Careers">Careers</a></li>
+                    </ul>
+                    </div>
+                </nav>
+          </section>
+        </main>
+
+        <section class="news-content border-bottom">
+            <div class="pad">
+                <div class="inner">
+                    <div class="news-content__top">
+                        <div class="news-content__top-col1">
+                            <h3>Media Inquiries. Answered Here.</h3>
+                            <p>If you have a media inquiry, please contact Kelly. She has all the latest information about Blue KC.</p>
+                        </div>
+                        <div class="news-content__top-col2">
+                            <img src="../images/news-contact-person.png" alt="Blue KC Media Inquiries">
+                        </div>
+                        <div class="news-content__top-col3">
+                            <div class="news-content__top-name">Kelly Cannon</div>
+                            <div class="news-content__top-position">Manager, Public Relations and Member Communications</div>
+                            <hr>
+                            <p class="txt-green"><span class="icon-phone"></span>&nbsp;&nbsp;&nbsp; 816-395-3711</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blue-news blue-news__fullwidth">
+            <div class="inner">
+                <div class="pad">
+                    <div class="news-col">
+                        <div class="news-top interior-news-top">
+                            <div class="two-col-50-50__left">
+                                <h3>Recent News &amp; Media</h3>
+                            </div>
+                            <div class="two-col-50-50__right">
+                                <span class="">FILTER RESULTS</span>
+                                <select class="styled-select select-year" id="news-year">
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                </select>
+                                <select class="styled-select select-pub" id="news-pubs">
+                                    <option value="all">All Publications</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                </select>
+                            </div>
+                            <div class="clear0"></div>
+                        </div>
+                        <div class="news-bottom">
+                            <ul id="newsfeed-interior">
+                                <li>
+                                    <a href="#" class="news-item">
+
+                                        <div class="date">NOV<br><span class="day">03</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>News Story</span><br>Blue KC Named as One of KC's Healthist Organizations</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">OCT<br><span class="day">19</span></div>
+                                        <div class="info"><div class="mobile-only">OCT 19</div><span>Newsletter</span><br>Blue KC Supports Drug Enforcement Administration's Nationwide Prescription "Drug Take-Back Day"</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">AUG<br><span class="day">15</span></div>
+                                        <div class="info"><div class="mobile-only">AUG 15</div><span>Press Release</span><br>Blue KC Awards Grants Supporting Significant Medical Developments in KC Region</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">AUG<br><span class="day">03</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>News Story</span><br>Blue Cross and Blue Shield of Kansas City Rolls Out Rx Savings Solutions Platform to Members</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">AUG<br><span class="day">02</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>Media Mention</span><br>Kansas City Region Selected for Centers for Medicare and Medicaid Services Comprehensive Primary Care Plus Initiative</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">NOV<br><span class="day">03</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>News Story</span><br>Blue KC Named as One of KC's Healthist Organizations</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">OCT<br><span class="day">19</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>Newsletter</span><br>Blue KC Supports Drug Enforcement Administration's Nationwide Prescription "Drug Take-Back Day"</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">AUG<br><span class="day">15</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>Press Release</span><br>Blue KC Awards Grants Supporting Significant Medical Developments in KC Region</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">AUG<br><span class="day">03</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>News Story</span><br>Blue Cross and Blue Shield of Kansas City Rolls Out Rx Savings Solutions Platform to Members</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-item">
+                                        <div class="date">AUG<br><span class="day">02</span></div>
+                                        <div class="info"><div class="mobile-only">NOV 03</div><span>Media Mention</span><br>Kansas City Region Selected for Centers for Medicare and Medicaid Services Comprehensive Primary Care Plus Initiative</div>
+                                        <div class="more"></div>
+                                        <div class="clear0"></div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="show-more" id="loadMore">Show More</div>
+
+                            <!--<div id="showLess">Show Less</div>-->
+                        </div>
+
+                    </div>
+
+                    <div class="clear0"></div>
+                    <style>
+                    #newsfeed-interior li { display:none; }
+                    </style>
+                    <script>
+                        $(document).ready(function () {
+                            size_li = $("#newsfeed-interior li").size();
+                            console.log(size_li);
+                            x=3;
+                            $('#newsfeed-interior li:lt('+x+')').show();
+                            $('#loadMore').click(function () {
+                                x= (x+5 <= size_li) ? x+5 : size_li;
+                                $('#newsfeed-interior li:lt('+x+')').show();
+                                 $('#showLess').show();
+                                if(x == size_li){
+                                    $('#loadMore').hide();
+                                }
+                            });
+                            $('#showLess').click(function () {
+                                x=(x-5<0) ? 3 : x-5;
+                                $('#newsfeed-interior li').not(':lt('+x+')').hide();
+                                $('#loadMore').show();
+                                 $('#showLess').show();
+                                if(x == 3){
+                                    $('#showLess').hide();
+                                }
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+          <script type="text/javascript">
+           document.addEventListener('DOMContentLoaded', function(e){
+             $('footer').load('/includes/footer.html');
+           });
+         </script>
+        </footer>
+
+    </div>
+    <div id="mobile_menu" class="mobile-nav">
+      <script type="text/javascript">
+           document.addEventListener('DOMContentLoaded', function(e){
+             $('#mobile_menu').load('/includes/mobile-menu.html');
+           });
+         </script>
+    </div>
+</div>
+<div id="responder"></div>
+</body>
+</html>
